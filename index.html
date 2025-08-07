@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Tuazon - Resume</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="https://scontent.fmnl37-1.fna.fbcdn.net/v/t39.30808-1/505104399_2202744300201123_4630694499467771196_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeG4b1vyEjrtoDyvJbj0-uqU0EOpg-OJKpHQQ6mD44kqkQmsCvlCexTRkot1UHQe8K8L4roi0wdaMuz7uQJ-wUVN&_nc_ohc=-w7yNb_UcKsQ7kNvwFCH1qS&_nc_oc=Adk1KlrionwqTtqUgaG3DYg2coupOYFAUyXLDej-8zCMCZ54Ewf9mR8z6gQQSn_w1PLENGHWILFFE0Dn4jaUceHa&_nc_zt=24&_nc_ht=scontent.fmnl37-1.fna&_nc_gid=w4dUwQVJ3w-pOntrjwwXVw&oh=00_AfUR7eJAnraM9PqW_ft8wence2biiXbIuhDCQvV-5-g81A&oe=689688BB" alt="Profile" class="profile-img">
+            
+            <h2 class="section-title">ABOUT ME</h2>
+            <p>Hi, I'm Kyle Mangila Tuazon, a 3rd-year IT student from Dominican College of Tarlac Inc. who enjoys learning and thriving for the best. I like playing sports and esports, and I'm interested in making simple systems. My goal is to finish this course and find a stable job related to IT Industry.</p>
+            
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="education-item">
+                <div class="education-year">PRIMARY</div>
+                <div class="education-degree"><i>Cristo Rey East Elementary School</i></div>
+            </div>
+            <div class="education-item">
+                <div class="education-year">SECONDARY</div>
+                <div class="education-degree"><i>Cristo Rey High School</i></div>
+            </div>
+            <div class="education-item">
+                <div class="education-year">TERTIARY</div>
+                <div class="education-degree"><i>Dominican College of Tarlac</i></div>
+            </div>
+            
+            <h2 class="section-title">CONTACTS</h2>
+            <div class="contact-item">+63 985-557-9336</div>
+            <div class="contact-item">kayltuazon09@gmail.com</div>
+            <div class="contact-item">Blk 90 Lot 137 Cristo Rey, Capas, Tarlac</div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1 class="main-title">Kyle Mangila Tuazon</h1>
+            <p><i>Ctrl + C, Ctrl + V Specialist</i></p>
+            <br>
+            <div class="experience-item">
+                <div class="experience-year">SKILLS</div>
+                <p>HTML, CSS, Visual Basic, Basic Python Programming</p>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-year">PROJECTS / EXPERIENCE</div>
+                <p>SAD Project, Elective 1 Project, Basic Research, Work Immersion</p>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-year">GOALS</div>
+                <p>Continue learning and stay updated with trends in technology and design.</p>
+            </div>
+            
+            <!-- Comment Section -->
+            <h2 class="section-title main-section-title">COMMENT SECTION</h2>
+            <div class="comment-section">
+                <form id="commentForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" name="comment" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </form>
+            </div>
+            
+            <!-- Resume Download Section -->
+            <div class="download-section">
+                <button class="download-btn" id="downloadResume">
+                    <i class="fas fa-download"></i> Download Resume
+                </button>
+                <div id="downloadStatus" class="status-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
